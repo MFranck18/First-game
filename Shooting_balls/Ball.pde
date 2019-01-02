@@ -1,6 +1,6 @@
 class ball{
 float ballColor=random(250);
-float ballspeed;
+float ballspeed=3;
 float r;
 float x;
 float y;
@@ -18,7 +18,10 @@ fill(ballColor);
  ellipse(x,y,r,r);
  }
 void Move(){
+  y=y+ballspeed;
   
-  
+  if(y>height||y<0){
+    ballspeed=ballspeed*-1;
+  }
 }  
 }

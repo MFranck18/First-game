@@ -26,4 +26,5 @@ void draw(){
  s1.display();
  s1.Move();
  b1.display();
+ b1.Move();
 }

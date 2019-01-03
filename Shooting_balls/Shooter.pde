@@ -36,10 +36,8 @@ Move=Move*-1;}
 
  void keyPressed(){
     if(key=='a'||key=='A')
- x=x-50;
+ Move=Move*2;
 
-  else if(key=='d'||key=='D')
- x=x+10; 
 
  }
 }
